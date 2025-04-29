@@ -21,8 +21,8 @@ public class BuildId {
 
     private static AtomicReference<Map<String, String>> variantBuildIds = new AtomicReference<>(null);
     private static Logger log = InstrumentationAgent.LOGGER;
-    private static boolean variantMapsEnabled = true;
-    private static String customBuildId = "";
+    private static boolean variantMapsEnabled = false;
+    private static String customBuildId = "50f01e2d-4cc3-4ac9-841d-fdd46b4ee2e1";
 
     static {
         invalidate();
